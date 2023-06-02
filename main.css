@@ -1,0 +1,86 @@
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-top: 20%;
+    background-color: pink;
+    padding-bottom: 20%;
+}
+
+.form-1 {
+    width: 350px;
+    height: 550px;
+    background-color: white;
+    margin: auto;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 25px;
+}
+
+h3 {
+    font-weight: 500;
+    cursor: pointer;
+}
+
+p {
+    margin: 0;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.content {
+    width: 100%;
+}
+
+.form-group {
+    margin: 19px 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.form-label{
+    cursor: pointer;
+}
+
+.form-input {
+    height: 30px;
+    margin-top: 5px;
+    padding: 0 10px;
+    outline: none;
+    border: none;
+    border: 2px solid rgb(234, 223, 224);
+    border-radius: 2px;
+}
+
+.form-input:focus {
+    border-color: rgb(211, 185, 187);
+}
+
+.form-massage {
+    margin-top: 5px;
+    font-size: 14px;
+    color: red;
+}
+
+.icon-heart {
+    color: red;
+}
+
+.register {
+    height: 30px;
+    border: none;
+    border: 1px solid rgb(174, 243, 174);
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(174, 243, 174);
+    cursor: pointer;
+}
+
+.course_items {
+    display: none;
+}

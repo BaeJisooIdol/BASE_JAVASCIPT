@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bae__Jisoo</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <h1>Danh sách khóa học</h1>
+
+    <ul class="courses_list"></ul>
+
+    <div>
+        <label for="">Name</label>
+        <input type="text" name="name">
+    </div>
+
+    <div>
+        <label for="">Description</label>
+        <input type="text" name="describe">
+    </div>
+
+    <button class="create_course">Create</button>
+
+    <!-- <div class="main">
+        <form action="" method="post" class="form-1" id="form-1">
+            <h3 class="header">
+                <span>Thành viên đăng ký</span>
+            </h3>
+            <p>Cùng nhau học lập trình miễn phí tại F8
+                <i class="fa-solid fa-heart icon-heart"></i>
+            </p>
+
+            <div class="content">
+                <div class="form-group">
+                    <label for="fullname" class="form-label">Full Name</label>
+                    <input name="fullname" id="fullname" type="text" class="form-input" placeholder="VD: Phạm Hải Đăng">
+                    <span class="form-massage"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="email" class="form-label">Email</label>
+                    <input name="email" id="email" type="text" class="form-input" placeholder="VD: dangphce180896@fpt.edu.vn">
+                    <span class="form-massage"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="password" class="form-label">Mật Khẩu</label>
+                    <input name="password" id="password" type="text" class="form-input" placeholder="">
+                    <span class="form-massage"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="password_again" class="form-label">Nhập lại mật khẩu</label>
+                    <input name="password_again" id="password_again" type="text" class="form-input" placeholder="">
+                    <span class="form-massage"></span>
+                </div>
+
+                <div class="form-group">
+                    <button class="register">
+                        <span>Đăng ký</span>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+    
+    <script src="./main.js"></script>
+    <script>
+       Validation({
+        form: '#form-1',
+        rules: [
+            Validation.isRequire('#fullname'),
+            Validation.isRequire('#email'),
+            Validation.isEmail('#email'),
+            Validation.isPassword('#password', 6),
+            Validation.isRequire('#password_again'),
+            Validation.isPassword_again('#password_again', function () {
+                return document.querySelector('#form-1 #password').value;
+            }),
+        ],
+        
+        onSubmit: function (data) {
+            console.log(data)
+        }
+
+       })
+    </script> -->
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
